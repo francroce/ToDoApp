@@ -104,3 +104,13 @@ form button:hover{
 .ingresarA a:hover{
     color: var(--azul);
 }
+
+.error {
+    color: red;
+    font-size: .7rem;
+    display: none;
+}
+
+.visible {
+    display: inline;
+}

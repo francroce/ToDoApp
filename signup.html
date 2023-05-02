@@ -37,18 +37,23 @@
 
       <label>Nombre</label>
       <input id="inputNombre" type="text">
-
+      <p><small class="error" id="nombreError">No puede contener numeros y ser menor a 3 caracteres</small></p>
+      
       <label>Apellido</label>
       <input id="inputApellido" type="text">
+      <p><small class="error" id="apellidoError">No puede contener numeros y ser menor a 3 caracteres</small></p>
 
       <label>Email</label>
-      <input id="inputEmail" type="text">
+      <input id="inputEmail" class="inputEmail" type="text">
+      <p><small class="error" id="emailError">Ingrese un email válido</small></p>
 
       <label>Contraseña</label>
-      <input id="inputPassword" type="password">
+      <input id="inputPassword" class="inputPassword" type="password">
+      <p><small class="error" id="passError">La contraseña debe contener Mayusculas y ser mayor a 6 caracteres</small></p>
 
       <label>Repetir contraseña</label>
       <input id="inputPasswordRepetida" type="password">
+      <p><small class="error" id="repPassError">Las contraseñas deben ser iguales</small></p>
 
       <button type="submit">Crear Cuenta</button>
     </form>
